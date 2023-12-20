@@ -1,0 +1,889 @@
+<!doctype html>
+<html class="h-100" lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+  <meta name="description" content="A growing collection of ready to use components for the CSS framework Bootstrap 5">
+  <link rel="apple-touch-icon" sizes="180x180" href="img/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="img/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="img/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="96x96" href="img/favicon.png">
+  <meta name="author" content="Stephen Thompson">
+  <meta name="generator" content="Eleventy v2.0.0">
+  <meta name="HandheldFriendly" content="true">
+  <title>Jamor Technology</title>
+  <!-- FontAwesome Icons -->
+  <link
+  rel="stylesheet"
+  href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+/>
+<!-- Google Fonts -->
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+  rel="stylesheet"
+/>
+<!-- Stylesheet -->
+  <link rel="stylesheet" href="css/theme.min.css">
+  <link rel="stylesheet" href="style.css" />
+
+  <style>
+    /* inter-300 - latin */
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 300;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-300.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-300.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 500;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-500.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-500.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+
+    @font-face {
+      font-family: 'Inter';
+      font-style: normal;
+      font-weight: 700;
+      font-display: swap;
+      src: local(''),
+        url('./fonts/inter-v12-latin-700.woff2') format('woff2'),
+        /* Chrome 26+, Opera 23+, Firefox 39+ */
+        url('./fonts/inter-v12-latin-700.woff') format('woff');
+      /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    }
+  </style>
+
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#navScroll">
+
+  <nav id="navScroll" class="navbar navbar-expand-lg navbar-light fixed-top" tabindex="0">
+    <div class="container">
+      <a class="navbar-brand pe-4 fs-4" href="/">
+        <svg xmlns="http://www.w3.org/2000/svg"width="32" height="32" fill="currentColor" class="bi bi-layers-half"
+          viewbox="0 0 16 16">
+           <image href="img/Jamor_Technology_32x32.png" height="20" width="18" />
+        </svg>
+        <span class="ms-1 fw-bolder">Jamor Technology</span>
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#Overview" aria-label="Brings you to the frontpage">
+              Overview
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#What We Do">
+              What We Do
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Core Values">
+              Core Values
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#gallery">
+              Gallery
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#workwithus">
+              Work with us
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#testimonials">
+              Testimonials
+            </a>
+          </li>
+
+        </ul>
+        <a href="JamorT/index.php" class="btn btn-dark btn-xl shadow me-1 rounded-0 my-1">Intern Login</a>
+      </div>
+    </div>
+  </nav>
+
+  <main>
+    <div class="w-100 overflow-hidden bg-gray-100" id="top">
+
+      <div class="container position-relative">
+        <div class="col-12 col-lg-8 mt-0 h-100 position-absolute top-0 end-0 bg-cover" data-aos="fade-left"
+          style="background-image: url(img/hero_bg.png);">
+
+        </div>
+        <div class="row">
+
+          <div class="col-lg-7 py-vh-6 position-relative" data-aos="fade-right">
+            <h1 class="display-1 fw-bold mt-5">Dynamic and Innovative!</h1>
+            <p class="lead">Our company’s profile explains how and why you canbenefit from our Overview as an intern. Here is asummary of the key areas you need to know.</p>
+            <a href="JamorT/login.php" class="btn btn-dark btn-xl shadow me-3 rounded-0 my-5">Get started free</a>
+          </div>
+
+
+
+        </div>
+      </div>
+
+    </div>
+
+    <div class="py-vh-5 w-100 overflow-hidden" id="Overview">
+      <div class="container">
+        <div class="row d-flex justify-content-end">
+          <div class="col-lg-8" data-aos="fade-down">
+            <h4 class="display-12">
+              <p>JamorT is a dynamic and innovative tech company specialising inintern training, website development, and professional hiringservices. with a strong commitment to excellence and a focus ondelivering tailored solutions.</p>
+              <p>Our comprehensive intern training program provides aspiring techprofessionals with hands-on experience, mentorship, and the skillsnecessary to succeed in the industry.</p>
+              <p>In website development, we create customised, visually appealing,and user-friendly websites that drive engagement, conversions, andbrand reputation.</p>
+              <p>We provide hiring services, connecting businesses with skilled techprofessionals who are carefully vetted and matched to specificrequirements.</p>
+              <p>As a trusted partner, we are dedicated to delivering exceptionalservices, exceeding client expectations, and driving tangible results.we invite businesses and individuals to embark on a transformativejourney with JamorT to unlock their full potential in the digital age.</p>
+            </h4>
+          </div>
+        </div>
+        <div class="row d-flex align-items-center">
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="200">
+            <span class="h5 fw-lighter">OBJECTIVE 01.</span>
+            <h3 class="py-5 border-top border-dark">Connect with Tech companies.</h3>
+            <p>The objective is to establish acohesive network of businessesthat maintain ongoingpartnerships with JamorT,facilitating the provision of real-time projects and tasks forinterns.</p>
+            <a href="#" class="link-fancy">Learn more
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-vh-4 pb-0" data-aos="fade-up" data-aos-delay="400">
+            <span class="h5 fw-lighter">OBJECTIVE 02.</span>
+            <h3 class="py-5 border-top border-dark">Give tech Solutions.</h3>
+            <p>We aim at giving tech newbies a qualityexperience that will enable them torepresent Jamor Technology in anefficient and productive manner, giving
+              companies solutions to their techproblems and also building Innovativewebsites and mobile applications for startups and businesses.</p>
+            <a href="#" class="link-fancy">Learn more
+            </a>
+          </div>
+
+          <div class="col-md-6 col-lg-4 py-vh-6 pb-0" data-aos="fade-up" data-aos-delay="600">
+            <span class="h5 fw-lighter">OBJECTIVE 03.</span>
+            <h3 class="py-5 border-top border-dark">Bridge the gap between techbiesand companies.</h3>
+            <p>JamorT aims to establish itselfas a reputable platform thatconnects graduates withindustry opportunities and helpsthem secure desirableemployment.</p>
+            <a href="#" class="link-fancy">Learn more
+            </a>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-4 py-vh-6 pb-0" data-aos="fade-up" data-aos-delay="600">
+          <span class="h5 fw-lighter">OBJECTIVE 04.</span>
+          <h3 class="py-5 border-top border-dark">Generate Revenue.</h3>
+          <p>Generate revenue through variouschannels. This may include offeringpremium features or subscription plansfor companies, implementing acommission-based model for successfulproject placements, and exploringpotential sponsorship and advertisingopportunities within the app.</p>
+          <a href="#" class="link-fancy">Learn more
+          </a>
+        </div>
+      </div>
+
+      </div>
+    </div>
+
+    <div class="py-vh-4 bg-gray-100 w-100 overflow-hidden" id="What We Do">
+      <div class="container">
+
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-lg-6">
+            <div class="row gx-5 d-flex">
+              <div class="col-md-11">
+                <div class="shadow ratio ratio-16x9 rounded bg-cover bp-center align-self-end" data-aos="fade-right"
+                  style="background-image: url(img/Img1.jpeg);--bs-aspect-ratio: 50%;">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="shadow ratio ratio-1x1 rounded bg-cover mt-5 bp-center float-end" data-aos="fade-up"
+                  style="background-image: url(img/Img3.jpeg);">
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="col-12 shadow ratio rounde bg-cover mt-5 bp-center" data-aos="fade-left"
+                  style="background-image: url(img/Img2.jpeg);--bs-aspect-ratio: 150%;">
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4">
+            <h3 class="py-5 border-top border-dark" data-aos="fade-left">WHAT WE DO</h3>
+            <h3 class="py-5 border-top border-dark">INTERNSHIP DEVELOPMENT</h3>
+            <p data-aos="fade-left" data-aos-delay="200">At Jamor Technology, we offer unique services to help techgraduates gain the professional experience needed to kick-start their tech careers. Our experienced team will workwith them on exciting projects, from tech newbies enteringthe market to established companies and start-ups.
+            </p>
+            <p>
+              <a href="#" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">Learn more
+              </a>
+            </p>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+          <h3 class="py-5 border-top border-dark">TECHNOLOGY SOLUTIONS</h3>
+          <p data-aos="fade-left" data-aos-delay="200">Jamor Tech is a leading technology company thatprovides a comprehensive suite of services to helpclients build a tech product. We take their idea fromideation and develop it into a full digital product. wealso help to solve and tech related business crisis.
+          </p>
+          <p>
+            <a href="#" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">Learn more
+            </a>
+          </p>
+        </div>
+
+        <div class="col-lg-4">
+          <h3 class="py-5 border-top border-dark">OUTSOURCING</h3>
+          <p data-aos="fade-left" data-aos-delay="200">Jamor Technology offers a wide range ofservices to help client’s business, andemployers reach its full potential. Whether theywant to hire a tech professional on a full-termor contract basis, develop their product to makeit competitive, or just need help with a specificproject.
+          </p>
+          <p>
+            <a href="#" class="link-fancy link-dark" data-aos="fade-left" data-aos-delay="400">Learn more
+            </a>
+          </p>
+        </div>
+
+      </div>
+      </div>
+    </div>
+
+    
+    </div>
+    </div>
+    <div class="py-vh-5 w-100 overflow-hidden" id="Core Values">
+      <div class="container">
+        <div class="row d-flex justify-content-between align-items-center">
+          <div class="col-lg-10">
+            <h3 class="py-5 border-top border-dark" data-aos="fade-right">CORE VALUES</h3>
+          </div>
+          <div class="col-lg-10">
+            <div class="row">
+              <div class="col-12">
+                <h2 class="display-6 mb-5" data-aos="fade-down">Here is Jamor Technology Core Values</h2>
+              </div>
+              <div class="col-lg-2" data-aos="fade-up">
+                <div class="display-6 fw-bold py-4">Reliability</div>
+                <p class="text-black-50">We understand the importance ofmeeting client expectations anddeadlines, and we strive to be areliable partner that clients cantrust. by maintaining open lines ofcommunication, adhering to ourpromises, and consistentlydelivering on our commitments.</p>
+              </div>
+              <div class="col-lg-2" data-aos="fade-up">
+                <div class="display-6 fw-bold py-4">Professionalism</div>
+                <p class="text-black-50">We hold ourselves to the higheststandards of professionalism,integrity, and ethical conduct. ourteam members are dedicatedprofessionals who approach theirwork with a sense ofresponsibilities, respect, andprofessionalism.</p>
+              </div>
+                <div class="col-lg-2" data-aos="fade-up">
+                <div class="display-6 fw-bold py-4">Collaboration</div>
+                <p class="text-black-50">We recognise that successfuloutcomes are often achievedthrough effective teamwork andcollaboration. We believe in thepower of diverse perspectives,ideas, and expertise comingtogether to drive innovation,problem-solving, and continuousimprovement.</p>
+              </div>
+                <div class="col-lg-2" data-aos="fade-up">
+                <div class="display-6 fw-bold py-4">Innovation</div>
+                <p class="text-black-50">We believe that innovation isessential to staying at the forefrontof the industry and providing cutting-edge solutions to our clients. weencourage a culture of creativity,curiosity, and continuous learning,empowering our team members andinterns to think outside the box,challenge the status quo, and bringfresh ideas and perspectives to thetable.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="position-relative overflow-hidden w-100 bg-light" id="gallery">
+      <div class="container-fluid">
+        <div class="row overflow-scroll">
+          <div class="col-12">
+            <div class="row vw-100 px-0 py-vh-5 d-flex align-items-center scrollx">
+              <div class="col-md-3" data-aos="fade-up">
+                <img src="img/Slide/ConnectPro 1.png" class="rounded shadow img-fluid" alt="nice gallery image"
+                  width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+                <img src="img/Slide/ConnectPro 2.png" class="img-fluid rounded shadow" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+                <img src="img/Slide/ConnectPro 3.png" class="img-fluid rounded shadow" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="600">
+                <img src="img/Slide/Jamor Technology 1.png" class="img-fluid rounded shadow" alt="nice gallery image"
+                width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="800">
+                <img src="img/Slide/Jamor Technology 2.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-2" data-aos="fade-up" data-aos-delay="1000">
+                <img src="img/Slide/Jamor Technology 3.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="1200">
+                <img src="img/Slide/Jamor Technology 4.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="1400">
+                <img src="img/Slide/Malva 1.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="1800">
+                <img src="img/Slide/Malva 2.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="2000">
+                <img src="img/Slide/Malva 3.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="2200">
+                <img src="img/Slide/Malva 4.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="2400">
+                <img src="img/Slide/Malva 5.png" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+
+              <div class="col-md-3" data-aos="fade-up" data-aos-delay="2800">
+                <img src="img/Slide/Meeting.webp" class="rounded shadow img-fluid" alt="nice gallery image" width="894" height="640">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container py-vh-4 w-100 overflow-hidden">
+      <div class="row d-flex justify-content-center align-items-center">
+        <div class="col-lg-5">
+          <h3 class="py-5 border-top border-dark" data-aos="fade-right">CEO of Jamor Technology</h3>
+        </div>
+        <div class="col-md-7" data-aos="fade-left">
+          <blockquote>
+            <div class="fs-4 my-3 fw-light pt-4 border-bottom pb-3">“At Jamor Technology, we are not just a business; we are architects of opportunity, 
+              pioneers of innovation, and architects of growth. Our organisation combines revolutionary internship development, 
+              leading-edge technical solutions, and strategic outsourcing services. 
+              We are committed to redefining the professional environment by connecting developing talent with unrivaled opportunities and equipping organizations with the tools and skills they require to prosper. 
+              Our goal is simple: to close the gap between aspiration and achievement. We stand for professionalism, collaboration, and a dedication to cultivating an environment in which talent thrives, creativity rules, and success knows no boundaries. 
+              Join us in imagining a world in which every person and company can reach their full potential.”</div>
+            <img src="img/CEO/Peace.jpg" width="104" height="34" class="img-fluid rounded-circle me-2" alt=""
+              data-aos="fade">
+            <span><span class="fw-bold">Peace Ololade,</span>
+              CEO of Jamor Technology.</span>
+          </blockquote>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="py-vh-6 bg-gray-900 text-light w-100 overflow-hidden" id="workwithus">
+      <div class="container">
+        <div class="row d-flex justify-content-center">
+          <div class="row d-flex justify-content-center text-center">
+            <div class="col-lg-8 text-center" data-aos="fade">
+              <p class="text-secondary lead">Let´s start a project together!</p>
+              <h2 class="display-6 mb-5">Hello! You like us working together
+                Click Below and Let´s work together.</h2>
+            </div>
+            <form method="post" action="//submit.form" onSubmit="return validateForm();">
+              <div style="max-width: 400px;">
+              </div>
+              <div style="padding-bottom: 18px;">NAME<span style="color: red;"> *</span><br/>
+              <input type="text" id="data_2" name="data_2" style="text-align:center;" class="form-control" />
+              </div>
+              <div style="padding-bottom: 18px;">ORGANIZATION<br/>
+              <input type="text" id="data_5" name="data_5" style="text-align:center;" class="form-control"/>
+              </div>
+              <div style="padding-bottom: 18px;">EMAIL<span style="color: red;"> *</span><br/>
+              <input type="text" id="data_4" name="data_4" style="text-align:center;" class="form-control"/>
+              </div>
+              <div style="padding-bottom: 18px;">MESSAGE<br/>
+              <textarea id="data_6" false name="data_6" style="text-align:center;" rows="12" class="form-control"></textarea>
+              </div>
+              <div style="padding-bottom: 18px;" class="col-12"><input name="skip_Submit" value="Get in contact" type="submit"class="btn btn-warning btn-xl shadow me-3 mt-4" data-aos="fade-down"/></div>
+              <div>
+              <div style="float:right"><a href="https://www.100forms.com" id="lnk100" title="form to email">form to email</a></div>
+              <script src="https://www.100forms.com/js/FORMKEY:5XLSNHKEZSZJ" type="text/javascript"></script>
+              </div>
+              </form>
+
+              <script type="text/javascript">
+                function validateForm() {
+                if (isEmpty(document.getElementById('data_2').value.trim())) {
+                alert('NAME is required!');
+                return false;
+                }
+                if (isEmpty(document.getElementById('data_4').value.trim())) {
+                alert('EMAIL is required!');
+                return false;
+                }
+                if (!validateEmail(document.getElementById('data_4').value.trim())) {
+                alert('EMAIL must be a valid email address!');
+                return false;
+                }
+                return true;
+                }
+                function isEmpty(str) { return (str.length === 0 || !str.trim()); }
+                function validateEmail(email) {
+                var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,15}(?:\.[a-z]{2})?)$/i;
+                return isEmpty(email) || re.test(email);
+                }
+                </script>
+              
+              </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-light w-100 overflow-hidden" id="testimonials">
+      <div class="container py-vh-6">
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-lg-10 col-xl-8 text-center">
+            <h2 class="display-6">Loved by people all around the globe</h2>
+            <p class="lead">Our spaces and offices are soooooo lovely, no one would give us a negative rating! And look
+              at these trustworthy avatar pictures! Trust us!</p>
+          </div>
+          <div class="col-12 mt-4">
+            <div class="row row-cols-1 row-cols-md-2 g-5 d-flex align-items-center">
+
+              <div class="col-12 col-lg-6 col-xl-4" data-aos="fade-right">
+                <div class="card p-4 mt-3 border-0">
+                  <div class="card-body">
+                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                    </div>
+                    <blockquote class="blockquote">
+                      <p>"I have been enlighten the more to have more experience of workimg as a team."</p>
+                    </blockquote>
+                    <div class="d-flex justify-content-between border-top pt-3">
+                      <div>
+                        <span class="h6 fw-5">Emmanuel</span><br>
+                        <small class="text-muted">Project Manager (Malva)</small>
+                      </div>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card p-4 shadow mt-3 border-0" data-aos="fade-down">
+                  <div class="card-body">
+                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg>
+                    </div>
+                    <blockquote class="blockquote">
+                      <p>"Learnt and managed embracing working as a team member so that we  an actually achieve more."</p>
+                    </blockquote>
+                    <div class="d-flex justify-content-between border-top pt-3">
+                      <p class="card-text">
+                        <span class="h6 fw-5">David</span><br>
+                        <small class="text-muted">Product Designer (Malva)</small>
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              
+              <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card p-4 mt-3 border-0" data-aos="fade-right">
+                  <div class="card-body">
+                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star" viewBox="0 0 16 16">
+                        <path
+                          d="M2.866 14.85c-.078.444.36.791.746.593l4.39-2.256 4.389 2.256c.386.198.824-.149.746-.592l-.83-4.73 3.522-3.356c.33-.314.16-.888-.282-.95l-4.898-.696L8.465.792a.513.513 0 0 0-.927 0L5.354 5.12l-4.898.696c-.441.062-.612.636-.283.95l3.523 3.356-.83 4.73zm4.905-2.767-3.686 1.894.694-3.957a.565.565 0 0 0-.163-.505L1.71 6.745l4.052-.576a.525.525 0 0 0 .393-.288L8 2.223l1.847 3.658a.525.525 0 0 0 .393.288l4.052.575-2.906 2.77a.565.565 0 0 0-.163.506l.694 3.957-3.686-1.894a.503.503 0 0 0-.461 0z" />
+                      </svg>
+                    </div>
+                    <blockquote class="blockquote">
+                      <p>"The internship has been a good experience. I have been able to further my understanding of working in a group, also practice skills on what I have previously learnt and been faced with a real life experience of a project with a team, which is different from when you work alone. Learn and practice in a real,life situation. You can also be corrected."</p>
+                    </blockquote>
+                    <div class="d-flex justify-content-between border-top pt-3">
+                      <p class="card-text">
+                        <span class="h6 fw-5">Joseph</span><br>
+                        <small class="text-muted">Product designer iTalkAdventures</small>
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card p-4 mt-3 border-0" data-aos="fade-up">
+                  <div class="card-body">
+                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-half" viewBox="0 0 16 16">
+                        <path
+                          d="M5.354 5.119 7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.548.548 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.52.52 0 0 1-.146.05c-.342.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.172-.403.58.58 0 0 1 .085-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027a.5.5 0 0 1 .232.056l3.686 1.894-.694-3.957a.565.565 0 0 1 .162-.505l2.907-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.001 2.223 8 2.226v9.8z" />
+                      </svg>
+                    </div>
+                    <blockquote class="blockquote">
+                      <p>"I got to work with a real team and see how setting operations are done in other fields."</p>
+                    </blockquote>
+                    <div class="d-flex justify-content-between border-top pt-3">
+                      <p class="card-text">
+                        <span class="h6 fw-5">Domain</span><br>
+                        <small class="text-muted">iTalkAdventures</small>
+                      </p>
+                      
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-12 col-lg-6 col-xl-4">
+                <div class="card p-4 shadow mt-3 border-0" data-aos="fade-left">
+                  <div class="card-body">
+                    <div class="text-dark py-2 fs-3"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                        fill="currentColor" class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                        class="bi bi-star-fill" viewBox="0 0 16 16">
+                        <path
+                          d="M3.612 15.443c-.386.198-.824-.149-.746-.592l.83-4.73L.173 6.765c-.329-.314-.158-.888.283-.95l4.898-.696L7.538.792c.197-.39.73-.39.927 0l2.184 4.327 4.898.696c.441.062.612.636.282.95l-3.522 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256z" />
+                      </svg>
+
+                    </div>
+                    <blockquote class="blockquote">
+                      <p>"I got how working in a team feels like."</p>
+                    </blockquote>
+                    <div class="d-flex justify-content-between border-top pt-3">
+                      <p class="card-text">
+                        <span class="h6 fw-5">Saseun</span><br>
+                        <small class="text-muted">JamorT</small>
+                      </p>
+                     
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="small py-vh-3 w-100 overflow-hidden">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 col-lg-4 border-end" data-aos="fade-up">
+            <div class="d-flex">
+              <div class="col-md-3 flex-fill pt-3 pe-3 pe-md-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor"
+                  class="bi bi-box-seam" viewbox="0 0 16 16">
+                  <path
+                    d="M8.186 1.113a.5.5 0 0 0-.372 0L1.846 3.5l2.404.961L10.404 2l-2.218-.887zm3.564 1.426L5.596 5 8 5.961 14.154 3.5l-2.404-.961zm3.25 1.7-6.5 2.6v7.922l6.5-2.6V4.24zM7.5 14.762V6.838L1 4.239v7.923l6.5 2.6zM7.443.184a1.5 1.5 0 0 1 1.114 0l7.129 2.852A.5.5 0 0 1 16 3.5v8.662a1 1 0 0 1-.629.928l-7.185 2.874a.5.5 0 0 1-.372 0L.63 13.09a1 1 0 0 1-.63-.928V3.5a.5.5 0 0 1 .314-.464L7.443.184z" />
+                </svg>
+              </div>
+              <div class="col-md-9 flex-fill">
+                <h3 class="h5 my-2">Project Contribution</h3>
+                <p>esources that contributed to a sponsored project over and above the support provided by the Extramural sponsor of that project.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6 col-lg-4 border-end" data-aos="fade-up" data-aos-delay="200">
+            <div class="d-flex">
+              <div class="col-md-3 flex-fill pt-3 pt-3 pe-3 pe-md-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor"
+                  class="bi bi-card-checklist" viewbox="0 0 16 16">
+                  <path
+                    d="M14.5 3a.5.5 0 0 1 .5.5v9a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5v-9a.5.5 0 0 1 .5-.5h13zm-13-1A1.5 1.5 0 0 0 0 3.5v9A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-9A1.5 1.5 0 0 0 14.5 2h-13z" />
+                  <path
+                    d="M7 5.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 1 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0zM7 9.5a.5.5 0 0 1 .5-.5h5a.5.5 0 0 1 0 1h-5a.5.5 0 0 1-.5-.5zm-1.496-.854a.5.5 0 0 1 0 .708l-1.5 1.5a.5.5 0 0 1-.708 0l-.5-.5a.5.5 0 0 1 .708-.708l.146.147 1.146-1.147a.5.5 0 0 1 .708 0z" />
+                </svg>
+              </div>
+              <div class="col-md-9 flex-fill">
+                <h3 class="h5 my-2">Problem Solving</h3>
+                <p>Determining the cause of the problem; identifying, prioritizing, and selecting alternatives for a solution; and implementing a solution.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4" data-aos="fade-up" data-aos-delay="400">
+            <div class="d-flex">
+              <div class="col-md-3 flex-fill pt-3 pt-3 pe-3 pe-md-0">
+                <svg xmlns="http://www.w3.org/2000/svg" width="42" height="42" fill="currentColor"
+                  class="bi bi-window-sidebar" viewbox="0 0 16 16">
+                  <path
+                    d="M2.5 4a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1zm2-.5a.5.5 0 1 1-1 0 .5.5 0 0 1 1 0zm1 .5a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z" />
+                  <path
+                    d="M2 1a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2H2zm12 1a1 1 0 0 1 1 1v2H1V3a1 1 0 0 1 1-1h12zM1 13V6h4v8H2a1 1 0 0 1-1-1zm5 1V6h9v7a1 1 0 0 1-1 1H6z" />
+                </svg>
+              </div>
+              <div class="col-md-9 flex-fill">
+                <h3 class="h5 my-2">Communication</h3>
+                <p>Build and maintain good relationship across teams involved in end to end service delivery for an excellent customer service.</p>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-vh-3 border-top" data-aos="fade" data-aos-delay="200">
+      <div class="row d-flex justify-content-center">
+        <div class="col-12 col-lg-8 text-center">
+          <h3 class="fs-2 fw-light">Contact us on Gmail<span class="fw-bold">
+              </span>
+          </h3>
+        </div>
+        <div class="col-12 col-lg-8 text-center">
+          <div class="row">
+            <div class="grouped-inputs border bg-light p-2">
+              <div class="row">
+                <div class="col">
+        <form class="form-floating">
+          <div style="max-width: 400px;">
+          </div>
+          <div class="col-auto">
+            <a href="mailto:jamortechnology@gmail.com" class="btn btn-dark py-3 px-5">Subscribe</a>
+          </div>
+          <div>
+          </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          </form>
+          
+              
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="container small border-top">
+      <div class="row py-5 d-flex justify-content-between">
+
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-layers-half"
+            viewbox="0 0 16 16">
+            <image href="img/Jamor_Technology_32x32.png" height="20" width="18" />
+          </svg>
+          <address class="text-secondary mt-3">
+            <strong>Location.</strong><br>
+            is<br>
+            Needed<br>
+            <abbr title="Phone">Call Us:</abbr>
+            +39-351-680-6117, 
+            <p>+234-810-414-2288</p>
+          </address>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">Company</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Jamor Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#"></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#"></a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-6 col-xl-3 border-end p-5">
+          <h3 class="h6 mb-3">Products</h3>
+          <ul class="nav flex-column">
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" aria-current="page" href="#">Jamor Technology</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#">ConnectPro</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#">ItalkAdventures</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#">Malva</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link link-secondary ps-0" href="#"></a>
+            </li>
+          </ul>
+        </div>
+        
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="container text-center py-3 small">Made by <a href="https://github.com/JamorTechnologyDevelopers" class="link-fancy"
+        target="_blank">Jamor Technology Developers</a> Distributed By <a href="https://github.com/Stephenthompson002">Stephen Thompson</a>
+    </div>
+  </footer>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 800, // values from 0 to 3000, with step 50ms
+    });
+  </script>
+
+  <script>
+    let scrollpos = window.scrollY;
+    const header = document.querySelector(".navbar");
+    const header_height = header.offsetHeight;
+
+    const add_class_on_scroll = () => header.classList.add("scrolled", "shadow-sm");
+    const remove_class_on_scroll = () => header.classList.remove("scrolled", "shadow-sm");
+
+    window.addEventListener('scroll', function () {
+      scrollpos = window.scrollY;
+
+      if (scrollpos >= header_height) { add_class_on_scroll(); }
+      else { remove_class_on_scroll(); }
+
+      console.log(scrollpos);
+    })
+  </script>
+
+</body>
+
+</html>
